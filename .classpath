@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="SpellingBee/src"/>
+	<classpathentry kind="lib" path="SpellingBee/external/mssql-jdbc-9.2.1.jre8.jar"/>
+	<classpathentry kind="output" path="SpellingBee/bin"/>
+</classpath>

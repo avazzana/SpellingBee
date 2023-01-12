@@ -15,8 +15,7 @@ public class DBThingy {
 			return;
 		}
 		String builder = word.substring(0, 3);
-		String filename = "C:\\Users\\vazzanam\\Desktop\\ICodeALot\\\\AudraciousnessPart6\\SpellingBee\\src\\" + builder + "123.txt";
-		//System.out.println(filename);
+		String filename = builder + "123.txt";
 		File file = new File(filename);
 		try {
 			if (file.createNewFile()) {
@@ -26,7 +25,7 @@ public class DBThingy {
 			}
 			else {
 				Scanner sc = new Scanner(file);
-				File tempfile = new File("fuck.txt");
+				File tempfile = new File("temp.txt");
 				tempfile.createNewFile();
 				FileWriter fw = new FileWriter(tempfile);
 				boolean b = false;
@@ -63,7 +62,7 @@ public class DBThingy {
 		if (word.length() < 4) {
 			return false;
 		}
-		String filename = "C:\\Users\\vazzanam\\Desktop\\ICodeALot\\AudraciousnessPart6\\SpellingBee\\src\\" + word.substring(0, 3) + "123.txt";
+		String filename = word.substring(0, 3) + "123.txt";
 		Scanner sc;
 		try {
 			sc = new Scanner(new File(filename));
@@ -124,7 +123,7 @@ public class DBThingy {
 				return "panagram is: " + s;
 			}
 		}
-		return "fork me, no panagram";
+		return "error: no panagram";
 	}
 	
 	public void searchFile(ArrayList<String> list, String fileName, String letters) {

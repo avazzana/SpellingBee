@@ -14,9 +14,9 @@ public class Main {
 	
 	public static void checkAdding() {
 		DBThingy dbt = new DBThingy();
-		String filename = "C:\\Users\\vazzanam\\Desktop\\ICodeALot\\\\AudraciousnessPart6\\SpellingBee\\src\\dictionary.txt";
+		String filename = "dictionary.txt";
 		File f = new File(filename);
-		String filename2 = "C:\\Users\\vazzanam\\Desktop\\ICodeALot\\\\AudraciousnessPart6\\SpellingBee\\src\\aaamissing.txt";
+		String filename2 = "aaamissing.txt";
 		File f2 = new File(filename2);
 		FileWriter fw;
 		int i = 0;
@@ -46,7 +46,7 @@ public class Main {
 	
 	public static void addStuff() {
 		DBThingy dbt = new DBThingy();
-		String filename = "C:\\Users\\vazzanam\\Desktop\\AudraciousnessPart6\\SpellingBee\\src\\dictionary.txt";
+		String filename = "dictionary.txt";
 		File f = new File(filename);
 		try {
 			Scanner sc = new Scanner(f);
