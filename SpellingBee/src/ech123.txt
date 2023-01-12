@@ -1,0 +1,4 @@
+echo
+echoed
+echoes
+echoing

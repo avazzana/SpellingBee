@@ -1,0 +1,4 @@
+toga
+togas
+together
+toggle

@@ -1,0 +1,7 @@
+fuzz
+fuzzed
+fuzzes
+fuzzier
+fuzziest
+fuzzing
+fuzzy

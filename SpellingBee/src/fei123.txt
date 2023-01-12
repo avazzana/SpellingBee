@@ -1,0 +1,8 @@
+feign
+feigned
+feigning
+feigns
+feint
+feinted
+feinting
+feints
